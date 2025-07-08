@@ -16,11 +16,54 @@
   </head>
   <body>
     <header>
-      <div id="logo">
-        <img src="assets/images/logo.png" alt="Logo quicklist" />
-      </div>
+      <img src="assets/images/logo.png" alt="Logo quicklist" />
     </header>
-    <main></main>
+    <main>
+      <div id="top">
+        <a href="#"><- Voltar</a>
+        <h1>Compras da semana</h1>
+      </div>
+
+      <form>
+        <input type="text" placeholder="Adicione um novo item" />
+        <button type="submit">Adicionar item</button>
+      </form>
+
+      <ul role="list">
+        <li>
+          <span class="item">
+            <img src="assets/icons/state-default.svg" alt="" />
+            <span>Pão de forma</span>
+          </span>
+          <img src="assets/icons/trash-icon.svg" alt="" />
+        </li>
+        <li>
+          <span class="item">
+            <img src="assets/icons/state-default.svg" alt="" />
+            <span>Pão de forma</span>
+          </span>
+          <img src="assets/icons/trash-icon.svg" alt="" />
+        </li>
+        <li>
+          <span class="item">
+            <img src="assets/icons/state-default.svg" alt="" />
+            <span>Pão de forma</span>
+          </span>
+          <img src="assets/icons/trash-icon.svg" alt="" />
+        </li>
+      </ul>
+
+      <div class="warning">
+        <div class="warning-message">
+          <img src="assets/icons/warning-circle-filled.svg" alt="" />
+          <span>O item foi removido da lista</span>
+        </div>
+
+        <div class="delete-icon">
+          <img src="assets/icons/delete-small.svg" alt="" />
+        </div>
+      </div>
+    </main>
     <script src="scripts.js"></script>
   </body>
 </html>

@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --bg-primary-color: #f4f5fb;
   --bg-secondary-color: #ffffff;
@@ -12,8 +18,29 @@
 
   --ff-sans: "Inter", sans-serif;
 
-  --title: 900 1.5rem/2 var(--ff-sans);
+  --title: 700 1.5rem/2 var(--ff-sans);
   --label: 600 1rem/1.25 var(--ff-sans);
   --text: 500 1rem/1.25 var(--ff-sans);
   --link: 500 0.875rem/1rem var(--ff-sans);
+}
+
+body {
+  background-color: var(--bg-primary-color);
+  font: var(--text);
+}
+
+h1 {
+  font: var(--title);
+}
+
+header {
+  display: none;
+}
+
+@media (width >= 80em) {
+  header {
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+  }
 }
