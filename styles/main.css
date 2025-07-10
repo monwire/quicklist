@@ -88,6 +88,12 @@ main {
         gap: 0.5rem;
         align-items: center;
 
+        & .checkbox {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
         & span {
           font-weight: 400;
           color: var(--content-primary);
@@ -96,37 +102,39 @@ main {
     }
   }
 
-  & .warning {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border: none;
-    padding-inline: 0.75rem;
-    padding-block: 0.5rem;
-    background-color: var(--color-danger);
-    border-radius: 0.75rem;
-
-    & .warning-message {
+  & #warnings {
+    & .warning {
       display: flex;
       flex-direction: row;
       align-items: center;
-      gap: 1rem;
-      width: 100%;
-      margin: unset;
+      justify-content: space-between;
+      border: none;
+      padding-inline: 0.75rem;
+      padding-block: 0.5rem;
+      background-color: var(--color-danger);
+      border-radius: 0.75rem;
 
-      & span {
-        color: var(--bg-secondary-color);
+      & .warning-message {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        margin: unset;
+
+        & span {
+          color: var(--bg-secondary-color);
+        }
       }
-    }
 
-    & .delete-icon {
-      & img {
-        margin-top: 0.3rem;
-      }
+      & .delete-icon {
+        & img {
+          margin-top: 0.3rem;
+        }
 
-      &:hover {
-        cursor: pointer;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
