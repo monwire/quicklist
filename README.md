@@ -30,6 +30,7 @@ Este projeto foi desenvolvido utilizando:
 
 - **HTML5**
 - **CSS3 (com variáveis customizadas e responsividade)**
+- **JavaScript (com manipulação do DOM)**
 
 ## 📄 Licença
 
