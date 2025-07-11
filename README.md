@@ -20,7 +20,7 @@ O **Quicklist** é uma aplicação web simples e responsiva para criação de li
 
 > Exemplo de interface disponível ao executar o projeto localmente:
 
-![preview do projeto]![alt text](assets/image.png)
+![Preview do projeto](assets/image.png)
 
 ---
 
