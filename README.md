@@ -1,6 +1,6 @@
 # 📋 Quicklist
 
-O **Quicklist** é uma aplicação web simples e responsiva para criação de listas de compras (ou afazeres), desenvolvida como parte do curso **Full-Stack** da [Rocketseat](https://www.rocketseat.com.br/), com base em um template fornecido via Figma. O projeto permite adicionar, marcar e remover itens dinamicamente, com feedback visual através de animações suaves de opacidade.
+O **Quicklist** é uma aplicação web simples e responsiva para criação de listas de compras, desenvolvida como parte do curso **Full-Stack** da [Rocketseat](https://www.rocketseat.com.br/), com base em um template fornecido via Figma. O projeto permite adicionar, marcar e remover itens dinamicamente, com feedback visual através de animações suaves de opacidade.
 
 ---
 
